@@ -44,7 +44,7 @@ Key steps:
 - Model serialization for inference
 
 The final trained model is stored inside:
-    /models/best_random_forest_model.pkl
+    /models/best_model.pkl
 
 
 ---
@@ -80,9 +80,9 @@ python main.py
 What will this do:
 
 - Load trained model
-- Read TEST.csv
+- Read TEST.csv (check first if there is null values or not)
 - Generate predictions
-- Save output.csv inside /output folder
+- Save FINAL.csv
 
 
 ---
